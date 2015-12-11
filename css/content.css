@@ -1,0 +1,35 @@
+img {
+	width: 100%;
+}
+
+h2 {
+	font-weight: 400!important;
+	padding: 16px 0 0 16px!important;
+}
+
+.mdl-card__supporting-text {
+	font-weight: 600;
+}
+
+.fixed-menu-button {
+	position: fixed!important;
+	top: 80%!important;
+	left: 85%!important;
+	z-index: 999;
+}
+
+.mdl-menu.mdl-menu--top-right {
+	position: fixed!important;
+	top: 65%!important;
+	left: 80%!important;
+	width: 180px!important;
+	height: 250px!important;
+}
+
+.mdl-menu__outline.mdl-menu--top-right {
+	position: fixed!important;
+	top: 65%!important;
+	left: 80%!important;
+	width: 180px!important;
+	height: 250px!important;
+}

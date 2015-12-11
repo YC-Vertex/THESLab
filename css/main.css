@@ -1,0 +1,171 @@
+header {
+	background-color: #666!important;
+}
+
+.top {
+	font-family: "Consolas", "Microsoft YaHei", sans-serif;
+	height: 50px;
+	margin: none;
+}
+
+.top .navbar {
+	margin: 0 200px 0 0;
+	background-color: #666;
+	height: 50px;
+	border: none;
+}
+
+.top .selector {
+	border-radius: 5px 5px 5px 5px;
+	font-size: 16px;
+}
+
+.top li a {
+	color: #eee!important;
+}
+
+.top .mdl-layout-title {
+	margin-left: 200px;
+	font-family: "Candara", sans-serif;
+	font-size: 26px;
+	letter-spacing: 2px;
+}
+
+.mdl-layout__drawer .mdl-layout-title {
+	margin-top: 25px;
+	margin-bottom: 30px;
+	font-family: "Candara", sans-serif;
+	font-size: 18px;
+	letter-spacing: 2px;
+}
+
+.mdl-navigation a {
+	height: auto;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	font-family: "Consolas", "Microsoft YaHei", sans-serif;
+	font-size: 18px;
+	color: #666;
+}
+
+.mdl-card {
+	width: 100%!important;
+}
+
+.md-card-1 {
+	height: auto;
+	background-image: url("../img/infiniteZB.png")!important;
+	background-repeat: no-repeat;
+}
+
+.fixed-menu-button {
+	position: fixed;
+	top: 80%;
+	left: 85%;
+	z-index: 999;
+}
+
+.mdl-menu.mdl-menu--top-right {
+	position: fixed!important;
+	top: 65%!important;
+	left: 80%!important;
+	width: 180px!important;
+	height: 250px!important;
+}
+
+.mdl-menu__outline.mdl-menu--top-right {
+	position: fixed!important;
+	top: 65%!important;
+	left: 80%!important;
+	width: 180px!important;
+	height: 250px!important;
+}
+
+main a {
+	font-family: "Consolas", "Microsoft YaHei", sans-serif;
+	font-size: 16px;
+}
+
+main p {
+	font-family: "Consolas", "Microsoft YaHei", sans-serif;
+	font-size: 16px;
+}
+
+a:link {
+	text-decoration: none!important;
+}
+
+a:visited {
+	text-decoration: none!important;
+}
+
+a:hover {
+	text-decoration: none!important;
+}
+
+a:active {
+	text-decoration: none!important;
+}
+
+.md-dp-2-front {
+	box-shadow: 0 0 6px 1px rgba(0, 0, 0, 0.16)
+}
+
+.md-dp-2-top {
+	box-shadow: 0 2px 6px 1px rgba(0, 0, 0, 0.16);
+}
+
+.md-dp-2-rised-front {
+	transition: all 0.4s ease;
+}
+
+.md-dp-2-rised-top {
+	transition: all 0.4s ease;
+}
+
+.md-dp-2-rised-front:hover {
+	box-shadow: 0 0 6px 1px rgba(0, 0, 0, 0.16);
+}
+
+.md-dp-2-rised-top:hover {
+	box-shadow: 0 2px 6px 1px rgba(0, 0, 0, 0.16);
+}
+
+.md-dp-6-rised-front {
+	transition: all 0.4s ease;
+}
+
+.md-dp-6-rised-top {
+	transition: all 0.4s ease;
+}
+
+.md-dp-6-rised-front:hover {
+	box-shadow: 0 0 18px 3px rgba(0, 0, 0, 0.16);
+}
+
+.md-dp-6-rised-top:hover {
+	box-shadow: 0 6px 18px 3px rgba(0, 0, 0, 0.16);
+}
+
+@font-face {
+  font-family: "Material Icons";
+  font-style: normal;
+  font-weight: 400;
+  src: url(../font/menu.woff2) format("woff2");
+}
+
+.material-icons {
+  font-family: "Material Icons";
+  font-weight: normal;
+  font-style: normal;
+  font-size: 24px;
+  line-height: 1;
+  letter-spacing: normal;
+  text-transform: none;
+  display: inline-block;
+  white-space: nowrap;
+  word-wrap: normal;
+  direction: ltr;
+  -webkit-font-feature-settings: "liga";
+  -webkit-font-smoothing: antialiased;
+}

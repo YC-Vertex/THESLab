@@ -1,0 +1,37 @@
+.homepage {
+	padding-top: 13.5%;
+	padding-bottom: 10%;
+	box-shadow: inset 0 0 128px rgba(0, 0, 0, 0.5);
+	background-color: #eee;
+	text-shadow: 0 1px 3px rgba(0, 0, 0, 0.15);
+	text-align: center;
+	color: #666;
+}
+
+.homepage h1 {
+	font-family: "Consolas", "幼圆", "Microsoft YaHei", sans-serif;
+	font-size: 56px;
+	letter-spacing: 2px;
+}
+
+.homepage h2 {
+	margin-top: 5%;
+	margin-bottom: 5%;
+	font-family: "Lucida Handwriting", "Consolas", "幼圆", "Microsoft YaHei", sans-serif;
+	font-size: 32px;
+}
+
+.homepage button {
+	font-family: "Consolas", "幼圆", "Microsoft YaHei", sans-serif;
+	font-size: 18px;
+	color: #fff;
+	background-color: #aaa;
+}
+
+.homepage .navbar {
+	background-color: #eee;
+}
+
+.homepage .box {
+	max-height: 80%;
+}
