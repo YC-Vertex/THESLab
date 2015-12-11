@@ -8,8 +8,15 @@ header {
 	margin: none;
 }
 
+.top .mdl-layout-title {
+	margin: 0 0 0 100px;
+	font-family: "Candara", sans-serif;
+	font-size: 26px;
+	letter-spacing: 2px;
+}
+
 .top .navbar {
-	margin: 0 200px 0 0;
+	margin: 0 100px 0 0;
 	background-color: #666;
 	height: 50px;
 	border: none;
@@ -22,13 +29,6 @@ header {
 
 .top li a {
 	color: #eee!important;
-}
-
-.top .mdl-layout-title {
-	margin-left: 200px;
-	font-family: "Candara", sans-serif;
-	font-size: 26px;
-	letter-spacing: 2px;
 }
 
 a:link {

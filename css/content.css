@@ -12,24 +12,28 @@ h2 {
 }
 
 .fixed-menu-button {
-	position: fixed!important;
-	top: 80%!important;
-	left: 85%!important;
+	position: fixed;
+	bottom: 12%;
+	right: 6%;
 	z-index: 999;
 }
 
 .mdl-menu.mdl-menu--top-right {
 	position: fixed!important;
-	top: 65%!important;
-	left: 80%!important;
+	top: initial!important;
+	left: initial!important;
+	bottom: 16%!important;
+	right: 6%!important;
 	width: 180px!important;
 	height: 250px!important;
 }
 
 .mdl-menu__outline.mdl-menu--top-right {
 	position: fixed!important;
-	top: 65%!important;
-	left: 80%!important;
+	top: initial!important;
+	left: initial!important;
+	bottom: 16%!important;
+	right: 6%!important;
 	width: 180px!important;
 	height: 250px!important;
 }

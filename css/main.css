@@ -8,8 +8,15 @@ header {
 	margin: none;
 }
 
+.top .mdl-layout-title {
+	margin: 0 0 0 100px;
+	font-family: "Candara", sans-serif;
+	font-size: 26px;
+	letter-spacing: 2px;
+}
+
 .top .navbar {
-	margin: 0 200px 0 0;
+	margin: 0 100px 0 0;
 	background-color: #666;
 	height: 50px;
 	border: none;
@@ -22,13 +29,6 @@ header {
 
 .top li a {
 	color: #eee!important;
-}
-
-.top .mdl-layout-title {
-	margin-left: 200px;
-	font-family: "Candara", sans-serif;
-	font-size: 26px;
-	letter-spacing: 2px;
 }
 
 .mdl-layout__drawer .mdl-layout-title {
@@ -52,31 +52,34 @@ header {
 	width: 100%!important;
 }
 
-.md-card-1 {
-	height: auto;
-	background-image: url("../img/infiniteZB.png")!important;
-	background-repeat: no-repeat;
+.mdl-card__title {
+	display: initial!important;
+	padding: 0!important;
 }
 
 .fixed-menu-button {
 	position: fixed;
-	top: 80%;
-	left: 85%;
+	bottom: 12%;
+	right: 6%;
 	z-index: 999;
 }
 
 .mdl-menu.mdl-menu--top-right {
 	position: fixed!important;
-	top: 65%!important;
-	left: 80%!important;
+	top: initial!important;
+	left: initial!important;
+	bottom: 16%!important;
+	right: 6%!important;
 	width: 180px!important;
 	height: 250px!important;
 }
 
 .mdl-menu__outline.mdl-menu--top-right {
 	position: fixed!important;
-	top: 65%!important;
-	left: 80%!important;
+	top: initial!important;
+	left: initial!important;
+	bottom: 16%!important;
+	right: 6%!important;
 	width: 180px!important;
 	height: 250px!important;
 }
