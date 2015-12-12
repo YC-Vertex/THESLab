@@ -5,20 +5,28 @@
 	background-color: #eee;
 	text-shadow: 0 1px 3px rgba(0, 0, 0, 0.15);
 	text-align: center;
-	color: #666;
 }
 
 .homepage h1 {
 	font-family: "Consolas", "幼圆", "Microsoft YaHei", sans-serif;
 	font-size: 56px;
 	letter-spacing: 2px;
+	color: #666;
 }
 
 .homepage h2 {
+	font-family: "Consolas", "Microsoft YaHei", sans-serif;
+	font-size: 32px;
+	letter-spacing: 1px;
+	color: #666;
+}
+
+.homepage h3 {
 	margin-top: 5%;
 	margin-bottom: 5%;
 	font-family: "Lucida Handwriting", "Consolas", "幼圆", "Microsoft YaHei", sans-serif;
-	font-size: 32px;
+	font-size: 36px;
+	color: #ff4081;
 }
 
 .homepage button {
