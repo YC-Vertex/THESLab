@@ -1,62 +1,3 @@
-header {
-	background-color: #666!important;
-}
-
-.top {
-	font-family: "Consolas", "Microsoft YaHei", sans-serif;
-	height: 50px;
-	margin: none;
-}
-
-.top .mdl-layout-title {
-	margin: 0 0 0 100px;
-	font-family: "Candara", sans-serif;
-	font-size: 26px;
-	letter-spacing: 2px;
-}
-
-.top .navbar {
-	margin: 0 100px 0 0;
-	background-color: #666;
-	height: 50px;
-	border: none;
-}
-
-.top .selector {
-	border-radius: 5px 5px 5px 5px;
-	font-size: 16px;
-}
-
-.top li a {
-	color: #eee!important;
-}
-
-.mdl-layout__drawer .mdl-layout-title {
-	margin-top: 25px;
-	margin-bottom: 30px;
-	font-family: "Candara", sans-serif;
-	font-size: 18px;
-	letter-spacing: 2px;
-}
-
-.mdl-navigation a {
-	height: auto;
-	padding-top: 10px;
-	padding-bottom: 10px;
-	font-family: "Consolas", "Microsoft YaHei", sans-serif;
-	font-size: 18px;
-	color: #666;
-}
-
-.mdl-card {
-	width: 100%!important;
-}
-
-.mdl-card__title {
-	display: initial!important;
-	padding: 0!important;
-}
-
 .fixed-menu-button {
 	position: fixed;
 	bottom: 12%;
@@ -84,12 +25,7 @@ header {
 	height: 250px!important;
 }
 
-main a {
-	font-family: "Consolas", "Microsoft YaHei", sans-serif;
-	font-size: 16px;
-}
-
-main p {
+.bottom a, .bottom p {
 	font-family: "Consolas", "Microsoft YaHei", sans-serif;
 	font-size: 16px;
 }

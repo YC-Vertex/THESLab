@@ -3,8 +3,19 @@ img {
 }
 
 h2 {
+	font-family: "Consolas", "Microsoft YaHei", sans-serif!important;
+	font-size: 24px!important;
 	font-weight: 400!important;
 	padding: 16px 0 0 16px!important;
+}
+
+.mdl-card {
+	width: 100%!important;
+}
+
+.mdl-card__title {
+	display: initial!important;
+	padding: 0!important;
 }
 
 .mdl-card__supporting-text {

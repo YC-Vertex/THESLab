@@ -25,7 +25,11 @@
 	font-family: "Consolas", "幼圆", "Microsoft YaHei", sans-serif;
 	font-size: 18px;
 	color: #fff;
-	background-color: #aaa;
+	background-color: #999;
+}
+
+.homepage button:hover {
+	background-color: #666!important;
 }
 
 .homepage .navbar {
