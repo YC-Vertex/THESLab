@@ -8,6 +8,7 @@
 }
 
 .homepage h1 {
+	margin-bottom: 5px;
 	font-family: "Consolas", "幼圆", "Microsoft YaHei", sans-serif;
 	font-size: 56px;
 	letter-spacing: 2px;
@@ -15,8 +16,9 @@
 }
 
 .homepage h2 {
-	font-family: "Consolas", "Microsoft YaHei", sans-serif;
-	font-size: 32px;
+	margin-top: 5px;
+	font-family: "Optima", "Microsoft YaHei", sans-serif;
+	font-size: 28px;
 	letter-spacing: 1px;
 	color: #666;
 }
@@ -24,8 +26,9 @@
 .homepage h3 {
 	margin-top: 5%;
 	margin-bottom: 5%;
-	font-family: "Lucida Handwriting", "Consolas", "幼圆", "Microsoft YaHei", sans-serif;
-	font-size: 36px;
+	font-family: "Aria", "Consolas", "幼圆", "Microsoft YaHei", sans-serif;
+	font-size: 48px;
+	letter-spacing: 2px;
 	color: #ff4081;
 }
 
