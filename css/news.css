@@ -1,0 +1,16 @@
+.panel .panel-heading {
+	padding: 10px 50px 10px 50px;
+}
+
+button {
+	float: right;
+}
+
+button.mdl-button {
+	font-size: 16px;
+	font-family: "Consolas", sans-serif;
+}
+
+a {
+	font-family: "Optima", sans-serif;
+}

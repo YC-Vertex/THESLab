@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<title>#</title>
+		<meta charset="utf-8">
+		<link rel="stylesheet" href="css/font.css">
+		<link rel="stylesheet" href="css/main.css">
+		<link rel="stylesheet" href="css/news.css">
+		<link rel="stylesheet" href="css/bootstrap.min.css">
+		<link rel="stylesheet" href="css/material.min.css">
+		<script type="text/javascript" src="js/jquery-1.11.3.min.js"></script>
+		<script type="text/javascript" src="js/bootstrap.min.js"></script>
+		<script type="text/javascript" src="js/material.min.js"></script>
+	</head>
+
+	<body>
+		<div class="fixed-menu-button">
+			<button class="mdl-button mdl-js-button mdl-button--fab mdl-js-ripple-effect mdl-button--colored" id="fixed-menu-button">
+  			<i class="material-icons">add</i>
+			</button>
+		</div>
+
+		<ul class="mdl-menu mdl-menu--top-right mdl-js-menu mdl-js-ripple-effect" for="fixed-menu-button">
+  		<li class="mdl-menu__item">Some Action</li>
+  		<li class="mdl-menu__item">Another Action</li>
+  		<li disabled class="mdl-menu__item">Disabled Action</li>
+  		<li class="mdl-menu__item">Yet Another Action</li>
+		</ul>
+
+		<div class="row">
+			<div class="col-sm-12 col-md-10 col-lg-8 col-md-offset-1 col-lg-offset-2">
+				<div class="panel-group" id="accordion">
+					<div class="panel panel-default">
+						<div class="panel-heading">
+							<h4 class="panel-title">
+								<a data-toggle="collapse" data-toggle="collapse" data-parent="#accordion" href="#collapseOne">Collapsible Group Item #1</a>
+								<button class="mdl-button mdl-js-button mdl-js-ripple-effect">more info.</button>
+							</h4>
+						</div>
+						<div id="collapseOne" class="panel-collapse collapse in">
+							<div class="panel-body">
+							</div>
+						</div>
+					</div>
+
+					<div class="panel panel-default">
+						<div class="panel-heading">
+							<h4 class="panel-title">
+								<a data-toggle="collapse" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">Collapsible Group Item #2</a>
+								<button class="mdl-button mdl-js-button mdl-js-ripple-effect">more info.</button>
+							</h4>
+						</div>
+						<div id="collapseTwo" class="panel-collapse collapse">
+							<div class="panel-body">
+							</div>
+						</div>
+					</div>
+
+					<div class="panel panel-default">
+						<div class="panel-heading">
+							<h4 class="panel-title">
+								<a data-toggle="collapse" data-toggle="collapse" data-parent="#accordion" href="#collapseThree">Collapsible Group Item #3</a>
+								<button class="mdl-button mdl-js-button mdl-js-ripple-effect">more info.</button>
+							</h4>
+						</div>
+						<div id="collapseThree" class="panel-collapse collapse">
+							<div class="panel-body">
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="bottom row" style="margin-top:40px">
+			<nav class="navbar navbar-default">
+				<div class="col-sm-6 col-md-5 col-lg-4 col-sm-offset-1 col-md-offset-1 col-lg-offset-2">
+					<ul class="nav navbar-nav">
+						<li><a href="index.html" target="main">首页</a></li>
+						<li><a href="content.html" target="main">项目一览</a></li>
+						<li><a href="#" target="main">关于我们</a></li>
+						<li><a href="#" target="main">联系我们</a></li>
+					</ul>
+				</div>
+
+				<div class="col-sm-4 col-md-4 col-lg-3 col-md-offset-1 col-lg-offset-1">
+					<p class="navbar-text" style="float:right">清华附中能量系统实验室</p>
+				</div>
+			</nav>
+		</div>
+	</body>
+</html>
