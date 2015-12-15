@@ -1,0 +1,14 @@
+.row {
+  margin-bottom: 25px;
+}
+
+.row h1 {
+	font-size: 24px;
+	font-family: "Optima", "Microsoft YaHei", sans-serif;
+}
+
+.row p {
+  margin-left: 35px;
+	font-size: 18px;
+	font-family: "Optima", "Microsoft YaHei", sans-serif;
+}

@@ -1,3 +1,7 @@
+body {
+	margin-top: 50px!important;
+}
+
 .fixed-menu-button {
 	position: fixed;
 	bottom: 12%;
@@ -85,4 +89,3 @@ a:active {
 .md-dp-6-rised-top:hover {
 	box-shadow: 0 6px 18px 3px rgba(0, 0, 0, 0.16);
 }
-
