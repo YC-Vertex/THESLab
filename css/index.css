@@ -3,3 +3,17 @@
 	font-size: 16px;
 	line-height: 26px;
 }
+
+.card {
+	padding: 15px 0 15px 0;
+	background-color: #eee;
+}
+
+hr {
+	margin: 35px 0 35px 0!important;
+}
+
+img {
+	width: 90%;
+	float: right;
+}

@@ -1,3 +1,14 @@
+.scrollspy {
+	position: fixed;
+	right: 15%;
+	top: 16%;
+}
+
+.scrollspy nav {
+	background: none!important;
+	border: none!important;
+}
+
 .row {
   margin-bottom: 25px;
 }
@@ -12,3 +23,8 @@
 	font-size: 18px;
 	font-family: "Optima", "Microsoft YaHei", sans-serif;
 }
+
+li {
+	font-size: 18px;
+}
+
