@@ -5,6 +5,8 @@
 }
 
 .card {
+	font-family: "Candara", "幼圆", sans-serif!important;
+	font-size: 18px!important;
 	padding: 15px 0 15px 0;
 	background-color: #eee;
 }
